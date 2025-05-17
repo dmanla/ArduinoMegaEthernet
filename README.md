@@ -6,6 +6,7 @@ This project was inspired by (but not a copy of) the Freetronics EtherMega: http
 This project was created as an alternative to the platform offered by Freetronics.
 
 Features:
+- CH340 USB->Serial Converter (Functionally similar to FT232, Driver should be installed automatically) 
 - 5V 2A USB-C Input
 - MicroSD Card Slot
 - 10/100 Ethernet provided over SPI using the W5500
