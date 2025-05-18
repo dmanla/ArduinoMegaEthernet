@@ -24,3 +24,12 @@ Features:
 
 ## Side Render
 ![Render of Side of PCB](https://github.com/dmanla/ArduinoMegaEthernet/blob/main/3D_Render_ANGLED.JPG)
+
+## Relevant Datasheets
+
+- (CH340N)[https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf]: USB->Serial Bridge
+- (AP22805AW5)[https://www.diodes.com/assets/Datasheets/AP22804_14.pdf]: USB Protection
+- (W5500)[http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf]: SPI->Ethernet Bridge
+- (ISM330DHCX)[https://www.st.com/resource/en/datasheet/ism330dhcx.pdf]: "AI Enabled" Inertial Measurement Unit
+- (SE050C2HQ1)[https://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf]: Security Coprocessor
+- (Atmega2560)[http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf]: Main Microcontroller
