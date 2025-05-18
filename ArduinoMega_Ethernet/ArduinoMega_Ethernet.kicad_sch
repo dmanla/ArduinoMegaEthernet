@@ -6863,6 +6863,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 186.69) (xy 303.53 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc00c4cd-50f3-4045-b785-295fdb500516")
+	)
+	(wire
+		(pts
 			(xy 303.53 196.85) (xy 303.53 194.31)
 		)
 		(stroke
@@ -6880,6 +6890,16 @@
 			(type default)
 		)
 		(uuid "be73e100-39bc-46bf-91b0-454bc40067b7")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be975855-c314-4378-9318-ac7c52424fe5")
 	)
 	(wire
 		(pts
@@ -6980,16 +7000,6 @@
 			(type default)
 		)
 		(uuid "c4252493-8671-46da-a959-397ca470fb0b")
-	)
-	(wire
-		(pts
-			(xy 294.64 186.69) (xy 303.53 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e6da1e-7bb0-4f27-9ff7-5c197e38ce94")
 	)
 	(wire
 		(pts
@@ -8111,6 +8121,16 @@
 		)
 		(uuid "5b206d71-4eed-44db-89c0-fb7efe5ad9ac")
 	)
+	(label "SD_DET"
+		(at 50.8 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c208cb3-2bda-42a5-9c5a-034a9502c8cc")
+	)
 	(label "PIN_D37"
 		(at 220.98 121.92 180)
 		(effects
@@ -8670,6 +8690,16 @@
 			(justify right bottom)
 		)
 		(uuid "ad3629f8-c25b-48f0-a6fd-3d6af95766ec")
+	)
+	(label "SD_DET"
+		(at 283.21 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af585398-a2ca-4488-a604-d3fb42ed35fd")
 	)
 	(label "PIN_A7"
 		(at 294.64 123.19 0)
@@ -12222,6 +12252,16 @@
 		(pin "SECURITY_SCL" bidirectional
 			(at 36.83 66.04 0)
 			(uuid "bb78702e-8b0c-4c5e-bd22-65d1a46c2211")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDCARD_DET" input
+			(at 36.83 43.18 0)
+			(uuid "57afff1e-0bc9-4de2-98f0-8ab5e333e84a")
 			(effects
 				(font
 					(size 1.27 1.27)
