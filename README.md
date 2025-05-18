@@ -11,7 +11,8 @@ Features:
 - MicroSD Card Slot
 - 10/100 Ethernet provided over SPI using the W5500
 - SE050 EdgeLock Plug and Trust Secure Element to provide security features for connected applications, accessible using I2C
-- ISM330DHCX Inertial Measurement Unit accessible using I2C
+- ISM330DHCX Inertial Measurement Unit, accessible using I2C
+- MCP7940N Real Time Clock, accessible using I2C
 
 **WARNING**: This project is under development and has not yet been validated.
 
@@ -32,4 +33,5 @@ Features:
 - [W5500](http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf): SPI->Ethernet Bridge
 - [ISM330DHCX](https://www.st.com/resource/en/datasheet/ism330dhcx.pdf): "AI Enabled" Inertial Measurement Unit
 - [SE050C2HQ1](https://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf): Security Coprocessor
+- [MCP7940N](http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf): Real-Time Clock **with** Battery Backup
 - [Atmega2560](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf): Main Microcontroller
