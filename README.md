@@ -16,6 +16,7 @@ Features:
 - SE050 EdgeLock Plug and Trust Secure Element to provide security features for connected applications, accessible using I2C
 - ISM330DHCX Inertial Measurement Unit, accessible using I2C
 - MCP7940N Real Time Clock, accessible using I2C
+- Level Shifted I2C: Provides connection points for 3V3 I2C Devices (Extra Header), and 5V I2C Devices (Standard Mega Headers)
   
 
 ## Top Render
