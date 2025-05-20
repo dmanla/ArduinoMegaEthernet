@@ -1,4 +1,4 @@
-# ArduinoMegaEthernet
+# Arduino-Mega Compatible Secure Connectivity Development Platform
 
 **WARNING**: This project is under development and has not yet been validated.
 
