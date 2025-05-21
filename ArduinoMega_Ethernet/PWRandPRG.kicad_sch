@@ -15333,7 +15333,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.16 34.29 0)
 			(effects
 				(font
@@ -17876,7 +17876,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND23"
+		(property "Value" "32.768kHz"
 			(at 99.06 202.692 90)
 			(effects
 				(font
@@ -18028,7 +18028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 259.08 33.02 0)
 			(effects
 				(font
@@ -19796,7 +19796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.39 31.75 0)
 			(effects
 				(font
@@ -20410,7 +20410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 250.19 33.02 0)
 			(effects
 				(font
@@ -22089,7 +22089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.76 165.1 0)
 			(effects
 				(font
