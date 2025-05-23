@@ -3160,7 +3160,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3169,21 +3172,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 3.175 5.08 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
-				(at 3.175 3.175 0)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3204,7 +3205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Two pin crystal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3231,10 +3232,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+						(xy -2.54 0) (xy -1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -3246,31 +3247,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -3293,43 +3270,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
+						(xy 1.905 -1.27) (xy 1.905 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -3339,8 +3280,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -3360,7 +3313,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -3370,42 +3323,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9187,12 +9104,6 @@
 		(uuid "a5339a8a-9874-4315-ae43-735d9903d1bf")
 	)
 	(junction
-		(at 102.87 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a63fd3a3-ba67-4927-a51d-2abb58e1d2c3")
-	)
-	(junction
 		(at 59.69 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9463,12 +9374,6 @@
 		(uuid "f586ff80-a22c-4baf-8d94-927e669f89cc")
 	)
 	(junction
-		(at 109.22 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6a547c5-4c53-410c-bc82-b9b318db2ad8")
-	)
-	(junction
 		(at 168.91 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9657,16 +9562,6 @@
 			(type default)
 		)
 		(uuid "0435c845-ac69-4956-8554-258bae09b7e2")
-	)
-	(wire
-		(pts
-			(xy 102.87 260.35) (xy 109.22 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "043a24cb-bcd9-4161-9fab-0295a5c207cd")
 	)
 	(wire
 		(pts
@@ -10137,16 +10032,6 @@
 			(type default)
 		)
 		(uuid "224b6f39-7e59-4643-aafc-4da0711ec249")
-	)
-	(wire
-		(pts
-			(xy 92.71 260.35) (xy 102.87 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "228c5dcf-4b01-40a1-b632-48ce958c7a7c")
 	)
 	(wire
 		(pts
@@ -13880,7 +13765,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 250.19) (xy 109.22 260.35)
+			(xy 109.22 250.19) (xy 109.22 271.78)
 		)
 		(stroke
 			(width 0)
@@ -14407,16 +14292,6 @@
 			(type default)
 		)
 		(uuid "fc57d110-2d74-479d-890d-f9bb322ac936")
-	)
-	(wire
-		(pts
-			(xy 109.22 260.35) (xy 109.22 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe4258f3-5662-492b-bf41-3ce597c9cbe6")
 	)
 	(wire
 		(pts
@@ -15867,8 +15742,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Var"
-			(at 181.61 165.1 0)
+		(property "Value" "18pF"
+			(at 183.134 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +15751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 176.53 163.83 0)
 			(effects
 				(font
@@ -16074,8 +15949,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at 104.902 264.668 0)
+		(property "Value" "12pF"
+			(at 104.14 264.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16083,7 +15958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 102.87 266.7 0)
 			(effects
 				(font
@@ -16776,8 +16651,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at 115.062 264.668 0)
+		(property "Value" "12pF"
+			(at 113.792 264.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16785,7 +16660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 113.03 266.7 0)
 			(effects
 				(font
@@ -18542,7 +18417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
+		(lib_id "Device:Crystal")
 		(at 97.79 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18566,7 +18441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering"
 			(at 97.79 260.35 0)
 			(effects
 				(font
@@ -18584,7 +18459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+		(property "Description" "Two pin crystal"
 			(at 97.79 260.35 0)
 			(effects
 				(font
@@ -18593,17 +18468,11 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "d0b23e7b-d9c7-4b46-8e05-ce9c05159ed4")
-		)
 		(pin "1"
 			(uuid "50178d8a-ec2d-45bd-b6aa-80da219881a9")
 		)
 		(pin "2"
 			(uuid "cb73dba6-f328-4939-9ce6-0fa8081f3404")
-		)
-		(pin "3"
-			(uuid "394e3b8e-18f1-4127-9254-96daf0f2c757")
 		)
 		(instances
 			(project ""
@@ -20803,7 +20672,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "961265d5-962d-404c-a5bd-c0f8985f138f")
 		(property "Reference" "C28"
 			(at 166.37 162.5535 0)
@@ -20814,21 +20682,22 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Var"
-			(at 166.37 165.0935 0)
+		(property "Value" "18pF"
+			(at 164.084 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 168.91 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
@@ -21307,7 +21176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_APV_ANR6028"
 			(at 238.76 29.21 0)
 			(effects
 				(font
@@ -23054,7 +22923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_APV_ANR6028"
 			(at 318.77 30.48 0)
 			(effects
 				(font

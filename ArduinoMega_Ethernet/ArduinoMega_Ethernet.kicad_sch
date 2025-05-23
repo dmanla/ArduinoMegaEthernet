@@ -10334,7 +10334,7 @@
 		(dnp no)
 		(uuid "28fb7491-c705-4d2d-a482-1f99e2189116")
 		(property "Reference" "C1"
-			(at 85.09 60.96 90)
+			(at 85.09 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,8 +10342,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
-			(at 78.74 60.96 90)
+		(property "Value" "100nF"
+			(at 76.962 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +10994,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "22pF"
 			(at 90.17 68.58 0)
 			(effects
 				(font
