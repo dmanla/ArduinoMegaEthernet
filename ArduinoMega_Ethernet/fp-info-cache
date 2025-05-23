@@ -1,4 +1,4 @@
-25721596728253915
+25725092537692547
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2723,6 +2723,13 @@ ABRACON_ARJM11C7-502-AB-ER2-T
 16
 16
 CUSTOM_PAD
+ARDUINO_A000067
+
+
+0
+86
+86
+CUSTOM_PAD
 BEL_0826-1X1T-GJ-F
 
 
@@ -2743,6 +2750,13 @@ COMTECH_C-OBD-II-16M
 0
 16
 16
+CUSTOM_PAD
+CUI_MSD-2-A
+
+
+0
+13
+13
 CUSTOM_PAD
 CUI_PJ-007
 
